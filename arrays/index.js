@@ -21,3 +21,11 @@ for(var j in array1) {
 }
 const average = sum1/array1.length
 console.log(average)
+
+// maximum and minimum of an array
+
+var array3 = [3,6,8,22,88,99]
+
+var maxNumber = Math.max(...array3)
+
+console.log(maxNumber)
